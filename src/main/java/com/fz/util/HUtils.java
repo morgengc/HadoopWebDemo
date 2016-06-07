@@ -59,6 +59,7 @@ public class HUtils {
 		}
 		return fs;
 	}
+	
 	/**
 	 * 获取hdfs文件目录及其子文件夹信息
 	 * @param input
@@ -75,5 +76,4 @@ public class HUtils {
 		
 		return buff.toString();
 	}
-	
 }

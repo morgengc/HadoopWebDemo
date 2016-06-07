@@ -67,6 +67,7 @@ public class TestAction extends ActionSupport {
 		
 		
 	}
+	
 	/**
 	 * 获得给定hdfs目录的所有文件夹及子文件
 	 */
@@ -81,7 +82,6 @@ public class TestAction extends ActionSupport {
 			Utils.write2PrintWriter(e.getLocalizedMessage());
 			e.printStackTrace();
 		}
-		
 	}
 	
 	/**
